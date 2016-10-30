@@ -338,8 +338,260 @@ $imgp:center top no-repeat;
 		}
 		.cb{
 			width:100%;
-			padding:0 15px;
-			padding-top:20px;
+			padding:15px;
+			h5{
+				font:700 14px/30px "微软雅黑";
+				color:#444444;
+				div{
+					width:100px;
+					height:1px;
+					position:absolute;
+					left:0;
+					background:#E7E7E7;
+					bottom:0;
+					&:after{
+						content:"";
+						background:#F6CE56;
+						width:20px;
+						height:1px;
+						display:block;
+						position:absolute;
+						right:0;
+					}
+				}
+			}
+			p{
+				font:12px/20px "微软雅黑";
+				color:#6E6E6E;
+			}
+			.lll{
+				width:100%;
+				padding-left:20px;
+				padding-right:100px;
+				&:after{
+					@include nofloat;
+				}
+				img{
+					position:absolute;
+					left:0;
+					top:2px;
+				}
+				span{
+					font:12px/20px "微软雅黑";
+					color:#909090;
+					margin-right:5px;
+				}
+				i{
+					font-style:none;
+					font:12px/20px "微软雅黑";
+					color:#909090;
+				}
+				ul{
+					float:right;
+					*:after{
+						@include nofloat;
+					}
+					li{
+						float:left;
+						i{
+							color:#E9B314;
+							font-size:14px;
+						}
+					}
+					li+li{
+						margin-left:5px;
+					}
+				}
+			}
+			&>a{
+				position:absolute;
+				right:15px;
+				top:15px;
+				display:block;
+			}
+		}
+	}
+	.zppl{
+		width:$inner-width;
+		margin:0 auto;
+		margin-top:40px;
+		.center{
+			width:100%;
+			padding:0 30px;
+			margin-top:40px;
+			&>h4{
+				font:400 16px/30px "微软雅黑";
+				border-bottom:1px solid #F1F1F1;
+				padding-left:30px;
+				color:#424242;
+				.xian{
+					position:absolute;
+					width:70px;
+					height:3px;
+					left:30px;
+					background:#20A7EB;
+					bottom:-2px;
+					i{
+						position:absolute;
+						width:3px;
+						height:3px;
+						border-radius:50%;
+						right:-10px;
+						background:#20A7EB;
+					}
+				}
+				.xian:after{
+					content:"";
+					position:absolute;
+					left:-1px;
+					width:3px;
+					height:3px;
+					border-radius:50%;
+					background:#20A7EB;
+					top:0;
+				}
+				.xian:before{
+					content:"";
+					position:absolute;
+					right:-1px;
+					width:3px;
+					height:3px;
+					border-radius:50%;
+					background:#20A7EB;
+					top:0;
+				}
+			}
+			.fbpl{
+					margin-top:30px;
+					padding-left:115px;
+					padding-bottom:70px;
+					&>img{
+						position:absolute;
+						left:30px;
+						top:21px;
+					}
+					h6{
+						text-align:right;
+						font:400 14px/20px "微软雅黑";
+						color:#656565;
+						b{
+							color:#454545;
+							font-size:15px;
+							font-weight:normal;
+						}
+					}
+					textarea{
+						width:100%;
+						height:185px;
+						border:1px solid #ddd;
+						border-radius:5px;
+						padding:30px;
+						line-height:12px;
+						color:#767676;
+						outline:none;
+						display:block;
+						resize:none;
+					}
+					.zlb{
+						width:100%;
+						padding-left:25px;
+						padding-top:20px;
+						&:after{
+							@include nofloat;
+						}
+						.zlpl{
+							float:left;
+							height:100%;
+							a{
+								font:12px/33px "微软雅黑";
+								color:#898989;
+								display:block;
+								padding-left:40px;
+							}
+							.yuan{
+								width:33px;
+								height:33px;
+								background:#5DDDA0;
+								position:absolute;
+								border-radius:50%;
+								left:0;
+								top:0;
+							}
+						}
+						.clpr{
+							float:right;
+							&:after{
+								@include nofloat;
+							}
+							img{
+								float:left;
+								margin-left:50px;
+								cursor:pointer;
+							}
+						}
+					}
+			}
+			.xgpl{
+				li{
+					padding:50px 60px 55px 153px;
+					border-bottom:1px solid #F1F1F1;
+					img{
+						position:absolute;
+						left:30px;
+						top:50px;
+					}
+					h5{
+						font:700 16px/30px "微软雅黑";
+						color:#595959;
+						padding-bottom:10px;
+						span{
+							margin-left:32px;
+							font-weight:normal;
+							font-size:12px;
+							color:#D3D3D3;
+						}
+						b{
+							position:absolute;
+							right: -55px;
+							font-size:18px;
+							color:#CACACA;
+							font-weight:normal;
+						}
+					}
+					p{
+						color:#686868;
+						font-size:14px;
+						line-height:20px;
+					}
+					.xgplrb{
+						margin-top:30px;
+						&:after{
+							@include nofloat;
+						}
+						&>div{
+							float:right;
+							&:after{
+								@include nofloat;
+							}
+							span{
+								float:left;
+								margin-left:40px;
+								&:nth-child(1),&:nth-child(2){
+									color:#8DE2F4;
+								}
+								&:nth-child(3){
+									color:#6A6A6A;
+									.icon{
+										color:#FFB0AF;
+										padding-left:10px;
+										padding-right:5px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }
