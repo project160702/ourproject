@@ -280,9 +280,12 @@ body #detail .con #qiye .jianjie span, body #detail .con #qiye .jianjie p {
   float: left;
   font-size: 14px;
   color: #abaaaa;
-  width: 100%;
   line-height: 22px;
   margin-left: 30px;
+}
+
+body #detail .con #qiye .jianjie span {
+  width: 100%;
 }
 
 body #detail .con #qiye .jianjie p:nth-of-type(2) {
@@ -350,7 +353,7 @@ body #detail .con #qiye .jianjie a {
 }
 
 body #detail .con #shejishi {
-  width: 300px;
+  width: 275px;
   height: auto;
   float: right;
 }
@@ -360,6 +363,54 @@ body #detail .con #shejishi li {
   height: 85px;
   background: #fff;
   border: 1px solid #e1e1e1;
-  box-shadow: -1px 2px 1px #e1e1e1;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px #e1e1e1;
   margin-bottom: 20px;
+  padding: 18px 10px 10px 20px;
+}
+
+body #detail .con #shejishi li P {
+  width: 100%;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+body #detail .con #shejishi li span:nth-of-type(1) {
+  font-size: 14px;
+  color: #979797;
+  float: left;
+}
+
+body #detail .con #shejishi li span:nth-of-type(2) {
+  font-size: 18px;
+  color: #f10000;
+  float: right;
+}
+
+body #detail .con #shejishi li div {
+  width: 21px;
+  height: 20px;
+  background: url("../imgs/com-detail/x_10.png");
+  position: absolute;
+  right: 75px;
+  bottom: 7px;
+}
+
+body #detail .con #shejishi li .ui {
+  width: 34px;
+  height: 33px;
+  background: url("../imgs/com-detail/x_03.png");
+  position: absolute;
+  right: -15px;
+  top: 10px;
+}
+
+body #detail .con #shejishi li .jiaohu {
+  background: url("../imgs/com-detail/x_41.png");
+  width: 44px;
+  height: 25px;
+  position: absolute;
+  left: -25px;
+  bottom: 15px;
 }
