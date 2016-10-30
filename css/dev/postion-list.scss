@@ -144,6 +144,46 @@ input{
                border-radius: 5px;
             }
         }
+        li:nth-last-of-type(1){
+            @include box1(100%,178px)
+            div.p{  
+                @include box1(440px,18px);
+                margin: auto;
+                @include center;
+                display: block;
+                &:after{
+                    content: "";
+                    clear: both;
+                }
+                a{
+                    color: #999999;
+                    display: block;
+                    float: left;
+                    margin-right: 10px;
+                    border:1px solid #ccc;
+                    @include box1(18px,18px);
+                    line-height: 18px;
+                    text-align: center;
+                }
+                a:nth-of-type(1),a:nth-of-type(2),a:nth-last-of-type(2),a:nth-last-of-type(1){
+                    border: none;
+                    width: auto;
+                    padding:0 2px ;
+                }
+                span{
+                    float: left;
+                    color: #999;
+                    margin-right: 5px;
+                    line-height: 18px;
+                }
+                .jump{
+                    @include box1(25px,18px);
+                    border: 1px solid #ccc;
+                    float: left;
+                    margin-right: 10px;
+                }
+            }
+        }
         
     }
 }
