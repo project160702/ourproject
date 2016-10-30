@@ -1,0 +1,39 @@
+@import 'base';
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
+.banner{
+    width:100%;
+    height:987px;
+    background: red;
+}
+.border{
+    border: 1px solid #ccc;
+}
+/*main*/
+.main{
+    @include box1(1200px,auto);
+    margin: 69px auto 0 auto;
+    .main-f{
+       @include box1(1200px,80px);
+       .in-f{
+            @include box1(990px,80px);
+            line-height: 80px;
+            font-size: 18px;
+            color:#d2d2d2;
+            padding: 0 5px;
+            outline-style: none;
+       }
+       .in-s{
+           @include box1(178px,80px);
+            line-height: 80px;
+            font-size: 18px;
+            color:#fff;
+            text-align: center;
+            background: #40d1f1;
+       }
+    }
+}
