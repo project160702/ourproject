@@ -59,7 +59,7 @@ $img-path:'../imgs/';
 }
 
 /*建盒子*/
-@mixin box($w,$h){
+@mixin box1($w,$h){
 	 width:$w;
 	 height:$h;
 }
