@@ -187,3 +187,191 @@ input{
         
     }
 }
+/*推广企业*/
+.generalize{
+    width:$inner-width;
+    height:420px;
+    margin: 74px auto 95px auto;
+    .ge-t{
+        @include box1(100%,42px);
+        .ge-t-l{
+            @include box1(auto,100%);
+            .tg{
+                float: left;
+            }
+            h3{
+                display: block;
+                color: #45b45a;
+                float: left;
+                font-size: 26px;
+                margin-right: 3px;
+                
+            }
+            .company{
+                height:42px;
+                line-height: 42px;
+                color:#727272;
+                float: left;
+                font-size: 16px;
+            }
+        }
+        .ge-t-r{
+            @include box1(62px,6px);
+            @include top-bottom;
+            right:2px;
+            float: right;
+        }
+    }
+    .ge-b{
+        padding: 50px 0;
+        li{
+            float: left;
+            @include box1(auto,auto);
+            margin-right: 28px;
+            .img{
+                position: absolute;
+                left: 0;
+                top: 0;
+                background: rgba(33,39,14,0.9);
+                @include box1(100%,100%);
+                border-radius: 8px;
+                border: 1px solid #bcbdbc;
+                opacity: 0;
+                transition:all .35s linear;
+                h3{
+                    text-align: center;
+                    font-size: 18px;
+                    margin-top: 50px;
+                    background: transparent;
+                    color: #fff;
+                }
+                .hx{
+                    @include box1(34px,1px);
+                    background: #fff;
+//                  @include left-right;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
+                p{
+                    padding: 0 25px;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    background: transparent;
+                    margin-top:12px;
+                }
+                span{
+                    @include box1(122px,34px)
+                    margin-top: 40px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 2px solid #fff;
+                    border-radius:3px;
+                    line-height: 34px;
+                    text-align: center;
+                    color: #fff;
+                    font-weight: 700;
+                    display: block;
+                    background: transparent;
+                }
+            }
+            
+            
+        }
+        li:hover .img{
+            opacity: 1;
+        }
+        li:nth-last-of-type(1){
+                margin-right: 0;
+            }
+    }
+}
+/*footer*/
+.footer{
+    @include box1(100%,304px);
+    background: #2d2d2d;
+    margin-top: 95px;
+    .footer-con{
+        @include box1(1200px,304px);
+        background: transparent;
+        margin: 0 auto; 
+        padding-top: 72px;
+        .l{
+            float: left;
+            background: transparent;
+            margin-left: 57px;
+            img{
+            background: transparent;                
+            }
+        }
+        .m{
+            float: left;
+            background: transparent;  
+            margin-left: 85px;
+            ul#lx{
+                @include box1(auto,30px);
+                background: transparent;  
+                li{
+                    float: left;
+                    font-size: 18px;
+                    padding: 0 25px;
+                    background: transparent;  
+                    a{
+                        display: block;
+                        color: #a7a5a5;
+                        background: transparent; 
+                        @include box1(100%,100%);
+                        line-height: 30px;
+                        text-align: center; 
+                    }
+                }
+            } 
+            .xxx{
+                border-bottom:1px dashed #a7a5a5;
+                width: 100px;
+                height: 1px;
+                background: transparent; 
+                margin-left:25px;
+            }
+            p{
+                @include box1(auto,36px);
+                background: transparent;
+                padding-left: 25px;
+                line-height: 36px;
+                span{
+                    color: #6e6e6e;
+                    background: transparent;
+                    padding: 0 5px;
+                }
+                a{
+                    color: #6e6e6e;
+                    background: transparent;
+                    padding: 0 5px;
+                }
+                span:nth-of-type(1){
+                    padding-left: 0;
+                }
+            } 
+            ul#icon{
+                background: transparent;
+                margin-top: 15px;
+                li{
+                    margin-left: 20px;
+                    @include box1(56px,55px);
+                    float: left;
+                    background: transparent;
+                    img{
+                        background: transparent;
+                    }
+                    a{
+                        background: transparent;
+                    }
+                }
+            }           
+        }
+        .r{
+            @include box1(140px,140px);
+            background: #25b0ff;
+            float: right;
+        }   
+    }
+}
