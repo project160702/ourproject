@@ -60,8 +60,10 @@ body #detail .con .qianyishi {
   height: 310px;
   background: #FFFFFF;
   border: 2px solid #e1e1e1;
-  border-top: 5px solid #10c8f0;
+  border-top: 4px solid #10c8f0;
   position: relative;
+  float: left;
+  border-radius: 8px;
 }
 
 body #detail .con .qianyishi .yishitop {
@@ -253,4 +255,111 @@ body #detail .con .qianyishi .yishibot .yishibotr a {
   color: #FFFFFF;
   line-height: 50px;
   text-align: center;
+}
+
+body #detail .con #qiye {
+  width: 870px;
+  height: auto;
+  background: #FFFFFF;
+  float: left;
+  margin-top: 50px;
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+}
+
+body #detail .con #qiye .jianjie {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+body #detail .con #qiye .jianjie span, body #detail .con #qiye .jianjie p {
+  float: left;
+  font-size: 14px;
+  color: #abaaaa;
+  width: 100%;
+  line-height: 22px;
+  margin-left: 30px;
+}
+
+body #detail .con #qiye .jianjie p:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+body #detail .con #qiye .jianjie p:nth-of-type(3) {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+body #detail .con #qiye .jianjie h2 {
+  width: 100%;
+  font-size: 30px;
+  color: #45b45a;
+  padding-left: 40px;
+  padding-bottom: 16px;
+}
+
+body #detail .con #qiye .jianjie .qiye1 {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  width: 34px;
+  height: 22px;
+}
+
+body #detail .con #qiye .jianjie .qiye1:nth-of-type(1) {
+  background: url("../imgs/com-detail/x_44.png");
+}
+
+body #detail .con #qiye .jianjie .qiye1:nth-of-type(2) {
+  background: url("../imgs/com-detail/x_44.png");
+}
+
+body #detail .con #qiye .jianjie .qiye1:nth-of-type(3) {
+  background: url("../imgs/com-detail/x_56.png");
+}
+
+body #detail .con #qiye .jianjie .qiye1:nth-of-type(4) {
+  background: url("../imgs/com-detail/x_59.png");
+}
+
+body #detail .con #qiye .jianjie .qiye2 {
+  width: 251px;
+  height: 375px;
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  background: url("../imgs/com-detail/x_47.png");
+}
+
+body #detail .con #qiye .jianjie .qiye3 {
+  width: 543px;
+  height: 375px;
+  float: right;
+  background: url("../imgs/com-detail/x_49.png");
+}
+
+body #detail .con #qiye .jianjie a {
+  margin-left: 30px;
+  text-decoration: underline;
+  color: #2298f3;
+  font-size: 16px;
+}
+
+body #detail .con #shejishi {
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+body #detail .con #shejishi li {
+  width: 100%;
+  height: 85px;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  box-shadow: -1px 2px 1px #e1e1e1;
+  margin-bottom: 20px;
 }
