@@ -1,0 +1,256 @@
+@charset "UTF-8";
+@import url("./base.css");
+/*去掉标签的默认样式*/
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd, span {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 12px;
+}
+
+img {
+  border: none;
+}
+
+/*内宽*/
+/*图片路径*/
+/*调试块*/
+/*上下居中*/
+/*左右居中*/
+/*居中*/
+/*建盒子*/
+/*正方形*/
+/*圆*/
+/*图片居中*/
+body #detail {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  background: #f4f4f4;
+}
+
+body #detail .con {
+  width: 1200px;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+body #detail .con .qianyishi {
+  width: 750px;
+  height: 310px;
+  background: #FFFFFF;
+  border: 2px solid #e1e1e1;
+  border-top: 5px solid #10c8f0;
+  position: relative;
+}
+
+body #detail .con .qianyishi .yishitop {
+  width: 450px;
+  height: 89px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+body #detail .con .qianyishi .yishitop .logo {
+  width: 89px;
+  height: 89px;
+  background: url("../imgs/com-detail/x_06.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+body #detail .con .qianyishi .yishitop h2 {
+  font-size: 28px;
+  color: #000;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+body #detail .con .qianyishi .yishitop h3 {
+  font-size: 18px;
+  color: #000;
+  height: 25px;
+  line-height: 25px;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 12px;
+}
+
+body #detail .con .qianyishi .yishitop .xing {
+  margin-top: 15px;
+  margin-left: -2px;
+  width: 110px;
+  height: 18px;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  background: url("../imgs/com-detail/x_13.png");
+}
+
+body #detail .con .qianyishi .yishicon {
+  width: 520px;
+  height: 190px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+body #detail .con .qianyishi .yishicon li {
+  width: 100%;
+  height: 18px;
+  float: left;
+  margin-top: 5px;
+  position: relative;
+}
+
+body #detail .con .qianyishi .yishicon li i {
+  position: absolute;
+  left: 5px;
+  top: 3px;
+  width: 15px;
+  height: 13px;
+}
+
+body #detail .con .qianyishi .yishicon li h3 {
+  width: 90px;
+  height: 18px;
+  border: 1px solid #cfcfcf;
+  float: left;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  text-align: center;
+  padding-left: 22px;
+}
+
+body #detail .con .qianyishi .yishicon li span {
+  width: auto;
+  height: 18px;
+  float: left;
+  margin-left: 16px;
+  letter-spacing: 0.1em;
+}
+
+body #detail .con .qianyishi .yishicon li:nth-of-type(1) i {
+  background: url("../imgs/com-detail/x_22.png");
+}
+
+body #detail .con .qianyishi .yishicon li:nth-of-type(2) i {
+  background: url("../imgs/com-detail/x_25.png");
+}
+
+body #detail .con .qianyishi .yishicon li:nth-of-type(3) i {
+  background: url("../imgs/com-detail/x_27.png");
+}
+
+body #detail .con .qianyishi .yishicon li:nth-of-type(4) i {
+  background: url("../imgs/com-detail/x_29.png");
+}
+
+body #detail .con .qianyishi .zhaopin {
+  width: 94px;
+  height: 52px;
+  position: absolute;
+  right: 70px;
+  top: 30px;
+  background: url("../imgs/com-detail/x_00.png");
+}
+
+body #detail .con .qianyishi .jing {
+  width: 277px;
+  height: 188px;
+  position: absolute;
+  right: -110px;
+  bottom: 0;
+  background: url("../imgs/com-detail/x_19.png");
+}
+
+body #detail .con .qianyishi .yishibot {
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  left: 20px;
+  bottom: -20px;
+}
+
+body #detail .con .qianyishi .yishibot .yishibotl {
+  width: 317px;
+  height: 50px;
+  float: left;
+  background: #FFFFFF;
+  border: 2px solid #e1e1e1;
+}
+
+body #detail .con .qianyishi .yishibot .yishibotl h1 {
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  left: 130px;
+  top: 10px;
+  font-size: 20px;
+  color: #4c324f;
+}
+
+body #detail .con .qianyishi .yishibot .yishibotl span {
+  width: 75px;
+  height: 18px;
+  position: absolute;
+  right: 37px;
+  top: 17px;
+  color: #aaaaaa;
+  font-size: 15px;
+}
+
+body #detail .con .qianyishi .yishibot .tuxiang {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  background: url("../imgs/com-detail/x_32.png");
+  position: absolute;
+  left: 20px;
+  top: -20px;
+  z-index: 99;
+}
+
+body #detail .con .qianyishi .yishibot .yishibotr {
+  width: 160px;
+  height: 50px;
+  background: #5bdb9d;
+  float: left;
+  margin-left: 20px;
+}
+
+body #detail .con .qianyishi .yishibot .yishibotr a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  line-height: 50px;
+  text-align: center;
+}
