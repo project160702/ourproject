@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/*去掉标签的默认样式*/
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd, span {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #fff; }
+
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 12px; }
+
+img {
+  border: none; }
+
+/*内宽*/
+/*图片路径*/
+/*调试块*/
+/*上下居中*/
+/*左右居中*/
+/*居中*/
+/*建盒子*/
+/*正方形*/
+/*圆*/
+/*图片居中*/
+body {
+  background: #f4f4f4; }
+
+.container {
+  width: 1200px;
+  height: 446px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  top: 280px;
+  background: #fff;
+  border-radius: 10px; }
+  .container .logo {
+    width: 283px;
+    height: 80px;
+    float: left;
+    margin-left: 42px;
+    margin-top: -10px;
+    background: url("../imgs/rec-detail/e_03.png"); }
+  .container .zhiwei {
+    width: 550px;
+    margin-top: 80px;
+    overflow: hidden; }
+    .container .zhiwei .line1:first-child {
+      width: 100%;
+      height: 40px;
+      padding-left: 60px; }
+      .container .zhiwei .line1:first-child .img1-box {
+        width: 27px;
+        height: 24px;
+        background: url("../imgs/rec-detail/x_10.png");
+        background-size: cover;
+        float: left;
+        margin-top: 8px; }
+      .container .zhiwei .line1:first-child .zi-box {
+        height: 100%;
+        width: auto;
+        float: left;
+        margin-left: 10px; }
+        .container .zhiwei .line1:first-child .zi-box span:first-child {
+          font-size: 20px;
+          color: #f10000;
+          text-align: center;
+          font-weight: bold;
+          line-height: 36px;
+          font-style: italic; }
+        .container .zhiwei .line1:first-child .zi-box span:last-child {
+          font-size: 20px;
+          color: #000;
+          text-align: center;
+          line-height: 36px; }
+    .container .zhiwei .line1:nth-child(2) {
+      width: 100%;
+      height: 36px;
+      padding-left: 60px; }
+      .container .zhiwei .line1:nth-child(2) .img2-box {
+        width: 27px;
+        height: 24px;
+        background: url("../imgs/rec-detail/e_07.png");
+        background-size: cover;
+        float: left;
+        margin-top: 6px; }
+      .container .zhiwei .line1:nth-child(2) .zi-box1 {
+        height: 100%;
+        width: auto;
+        float: left;
+        margin-left: 10px; }
+        .container .zhiwei .line1:nth-child(2) .zi-box1 span {
+          font-size: 20px;
+          color: #f10000;
+          text-align: center;
+          line-height: 36px;
+          font-style: normal;
+          color: #a7a7a7; }
+    .container .zhiwei .line1:nth-child(3) {
+      width: 100%;
+      height: 36px;
+      padding-left: 60px;
+      margin-top: 10px; }
+      .container .zhiwei .line1:nth-child(3) span {
+        text-align: left;
+        color: #71e0aa;
+        font-size: 16px; }
+  .container .youshang {
+    width: 286px;
+    height: 114px;
+    float: right;
+    margin-right: 55px;
+    margin-top: -150px; }
+    .container .youshang .ys-line1 {
+      width: 100%;
+      text-align: center;
+      color: #155c85;
+      font-size: 14px; }
+      .container .youshang .ys-line1 span {
+        font-size: 30px;
+        font-style: oblique;
+        font-weight: bold;
+        color: #10c8f0; }
+    .container .youshang .ys-line2 {
+      width: 100%;
+      height: 55px;
+      margin-top: 15px;
+      background: url("../imgs/rec-detail/h_03.png") no-repeat center; }
+  .container .liekuang {
+    width: 100%;
+    height: 242px; }
+    .container .liekuang .lie-kuang {
+      float: left;
+      width: 1032px;
+      height: 150px;
+      border: 1px dashed #dcdcdc;
+      margin-left: 57px;
+      margin-top: 50px; }
+      .container .liekuang .lie-kuang .touxiang {
+        width: 148px;
+        height: 100%;
+        float: left;
+        background: url("../imgs/rec-detail/c_03.png") no-repeat center; }
+      .container .liekuang .lie-kuang .mingzi {
+        width: 84px;
+        height: 100%;
+        float: left;
+        margin-left: 25px; }
+        .container .liekuang .lie-kuang .mingzi span:first-child {
+          width: 100%;
+          font-size: 24px;
+          color: #333333;
+          float: left;
+          padding-top: 60px; }
+        .container .liekuang .lie-kuang .mingzi span:last-child {
+          font-size: 14px;
+          color: #a7a7a7;
+          width: 100%;
+          float: left;
+          margin-top: 8px; }
+      .container .liekuang .lie-kuang .zhongjian {
+        width: 222px;
+        height: 100%;
+        text-align: center;
+        line-height: 150px;
+        float: left;
+        margin-left: 230px;
+        font-size: 16px;
+        color: #a7a7a7; }
+      .container .liekuang .lie-kuang .shutiao {
+        height: 66px;
+        width: 9px;
+        float: left;
+        margin-top: 40px;
+        margin-left: 50px;
+        background: url("../imgs/rec-detail/y.jpg") no-repeat; }
+      .container .liekuang .lie-kuang .youbian {
+        width: 164px;
+        height: 48px;
+        background: #5bdb9d;
+        float: left;
+        margin-left: 50px;
+        margin-top: 50px;
+        box-shadow: 1px 1px 3px #ddd;
+        text-align: center;
+        line-height: 48px;
+        font-size: 20px;
+        color: #fff; }
