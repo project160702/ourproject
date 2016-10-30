@@ -2,13 +2,23 @@
 body{
     background:#f4f4f4;
 }
-.container {
+.hezi{
+    width:$inner-width;
+    height:3116px;
+    @include left-right;
+    top:280px;
+    background:pink;
+}
+@mixin container{
   width: 1200px;
-  height:446px;
-  @include left-right;
-  top: 280px;
   background:#fff;
   border-radius: 10px;
+  margin:0 auto;
+}
+//第一部分
+.container:first-child {
+  @include container;
+  height:446px;;
   .logo {
       width: 283px;
       height: 80px;
@@ -19,8 +29,8 @@ body{
     }
     .zhiwei {
       width: 550px;
-      margin-top: 80px;
       overflow: hidden;
+      padding-top:26px;
      .line1:first-child{
          width:100%;
          height:40px;
@@ -100,7 +110,7 @@ body{
         height:114px;
         float: right;
         margin-right:55px;
-        margin-top:-150px;
+        margin-top:60px;
         .ys-line1{
             width:100%;
             text-align: center;
@@ -192,4 +202,297 @@ body{
         }
     }
 }
+//第一部分完
 
+//第二部分
+.container:nth-child(2){
+    height:842px;
+    @include container;
+    margin-top:10px;
+    .part1{
+        height:242px;
+        width:100%;
+        border-bottom:1px solid #e1e1e1;
+        padding-left:57px;
+        padding-top:47px;
+        .title{
+            width:100%;
+            height:30px;
+            margin-left:-37px;
+            .title-img{
+                width:33px;
+                height:34px;
+                float: left;
+                background: url($img-path+'rec-detail/v_03.png') no-repeat center;
+            }
+            .title-zi{
+                font-size:24px;
+                color:#45b45a;
+                text-align: left;
+                line-height: 30px;
+                padding-left:5px;
+                float: left;
+            }
+        }
+        .mingchen{
+            width:100%;
+            padding-top:34px;
+            height:56px;
+            .hanzi{
+                width:70px;
+                height:100%;
+                text-align: center;
+                line-height:22px ;
+                font-size:16px;
+                color:#7a7979;
+                font-weight: bold;
+                float: left;
+            }
+            .tu{
+                width:175px;
+                height:100%;
+                background:url($img-path+'rec-detail/zz.jpg') no-repeat center;
+                float: left;
+            }
+            
+        }
+        .neirong{
+            width:100%;
+            height:100px;
+            padding-top:8px;
+            li{
+                text-align: left;
+                font-size: 14px;
+                color:#888787;
+                padding-bottom:4px;
+            }
+            
+        }
+    }
+    .part2{
+        height:158px;
+        width:100%;
+        border-bottom:1px solid #e1e1e1;
+        background:#fff ;
+        padding-left:57px;
+        .mingchen{
+            width:100%;
+            padding-top:16px;
+            height:54px;
+            .hanzi{
+                width:70px;
+                height:100%;
+                text-align: center;
+                line-height:38px ;
+                font-size:16px;
+                color:#7a7979;
+                font-weight: bold;
+                float: left;
+            }
+            .tu{
+                width:175px;
+                height:100%;
+                background:url($img-path+'rec-detail/z.jpg') no-repeat center;
+                float: left;
+            }
+            
+        }
+        .neirong{
+            width:100%;
+            height:100px;
+            padding-top:8px;
+            li{
+                text-align: left;
+                font-size: 14px;
+                color:#888787;
+                padding-bottom:4px;
+            }
+            
+        }
+    }
+.part3{
+    width:100%;
+    background:#fff ;
+    padding-left:57px;
+    padding-top:20px;
+     .title{
+            width:100%;
+            height:30px;
+            margin-left:-37px;
+            .title-img{
+                width:33px;
+                height:34px;
+                float: left;
+                background: url($img-path+'rec-detail/zp.jpg') no-repeat center;
+            }
+            .title-zi{
+                font-size:24px;
+                color:#45b45a;
+                text-align: left;
+                line-height: 30px;
+                padding-left:5px;
+                float: left;
+            }
+        }
+        .datu{
+            width:1031px;
+            margin-top:16px; 
+            height:282px;
+            background:url($img-path+'rec-detail/v_06.png') no-repeat center;
+           
+        }
+        .dibu{
+            width:100%;
+            height:76px;
+            padding-top:10px;
+            li{
+               text-align: left;
+                font-size: 14px;
+                color:#888787;
+                padding-bottom:8px; 
+            }
+        }
+    
+  }
+}
+//第二部分完
+
+//第三部分
+.container:nth-child(3){
+//   height:1046px;
+    @include container;
+    margin-top:10px;
+    .part1{
+        height:146px;
+        width:100%;
+        border-bottom:1px solid #e1e1e1;
+        padding-left:57px;
+         .title{
+            width:100%;
+            height:30px;
+            padding-top:18px;
+            margin-left:-37px;
+            .title-img{
+                width:33px;
+                height:34px;
+                float: left;
+                background: url($img-path+'rec-detail/v_10.png') no-repeat center;
+            }
+            .title-zi{
+                font-size:24px;
+                color:#45b45a;
+                text-align: left;
+                line-height: 30px;
+                padding-left:5px;
+                float: left;
+            }
+        }
+         .dibu{
+            width:100%;
+            padding-top:50px;
+            li{
+               text-align: left;
+                font-size: 14px;
+                color:#888787;
+                padding-bottom:8px; 
+            }
+        }
+    }
+    .part2{
+        height:757px;
+        width:100%;
+        border-bottom:1px solid #e1e1e1;
+        padding-left:57px;
+         .title{
+            width:100%;
+            height:30px;
+            padding-top:36px;
+            margin-left:-37px;
+            .title-img{
+                width:33px;
+                height:34px;
+                float: left;
+                background: url($img-path+'rec-detail/v_10.png') no-repeat center;
+            }
+            .title-zi{
+                font-size:24px;
+                color:#45b45a;
+                text-align: left;
+                line-height: 30px;
+                padding-left:5px;
+                float: left;
+            }
+        }
+         .dibu{
+            width:100%;
+            padding-top:26px;
+            li{
+               text-align: left;
+                font-size: 14px;
+                color:#888787;
+                padding-bottom:6px; 
+            }
+        }
+        #one{
+            padding-top:50px;
+        }
+        .sanzhangtu{
+            width:100%;
+            height:386px;
+            margin-top:16px;
+            .tu1{
+                width:259px;
+                height:100%;
+                background:url($img-path+'rec-detail/v_16.png') no-repeat center;
+                float: left;
+            }
+            .tu2{
+                width:557px;
+                height:100%;
+                background:url($img-path+'rec-detail/v_18.png') no-repeat center;
+                float: left;
+                margin-left:6px;
+            }
+            #two{
+               margin-left:6px; 
+            }
+        }
+       
+    }
+    .part3{
+        width:100%;
+        height:142px;
+        padding-left:57px;
+         .title{
+            width:100%;
+            height:30px;
+            padding-top:30px;
+            margin-left:-37px;
+            height:60px;
+            .title-img{
+                width:33px;
+                height:34px;
+                float: left;
+                background: url($img-path+'rec-detail/v_10.png') no-repeat center;
+            }
+            .title-zi{
+                font-size:24px;
+                color:#45b45a;
+                text-align: left;
+                line-height: 30px;
+                padding-left:5px;
+                float: left;
+            }
+        }
+        .lianjie{
+            margin-top:28px;
+            text-align: ceter;
+            a{
+              text-align: left;
+              font-size:16px;
+              color:#309ef4; 
+              text-decoration: underline; 
+            }
+        }
+    }
+}
