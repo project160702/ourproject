@@ -1,17 +1,18 @@
 @import url("./base.css");
 @import "base";
 
- body #detail{
-                margin-top: 50px;
-     
+body{
+    background: #f4f4f4;
+}
+ #detail{
+    margin-top: 50px; 
     width:100%;
     height: auto;
-    background: #f4f4f4;
     .con{
         width:$inner-width;
         height: auto;
         @include left-right;
-        .qianyishi{
+        #qianyishi{
             width: 750px;
             height: 310px;
             background: #FFFFFF;
@@ -215,8 +216,6 @@
                     float: left;
                     font-size: 14px;
                     color: #abaaaa;
-//                  width: 100%;
-//                  height: 22px;
                     line-height: 22px;
                     margin-left: 30px;
                 }
@@ -333,8 +332,278 @@
                     bottom: 15px;
                 }
             }
+        }
+        #pinglun{
+            width:890px;
+            float: left;
+            height: auto;
+            margin-top: 30px;
+            
+            .ping{
+                width: 33px;
+                height: 23px;
+                background: url($img-path + "com-detail/x_59.png");
+                position: absolute;
+                left: 15px;
+                top: 32px;
+            }
+            h2{
+                width: 100%;
+                font-size: 30px;
+                color: #45b45a;
+                padding-left: 55px;
+                padding-bottom: 16px;  
+                margin-top: 7px; 
+                padding-top: 15px;
+            }
+            ul{
+                li{
+                    padding: 25px;
+                    height: auto;
+                    padding-bottom: 30px;
+                    border-top: 1px solid #b5b5b5;
+                    padding-left: 120px;
+                    &:after{
+                        content: "";
+                       display: block;
+                       clear:both ;
+                    }
+                    .fl{
+                        width: 27px;
+                        height: 27px;
+                        background: #f4f4f4;
+                        position: absolute;
+                        right: 20px;
+                        top: -15px;
+                        z-index: 9999;
+                        text-align: center;
+                        
+                        span{
+                            width: 27px;
+                            height: 27px;
+                            color: #155c85;
+                            font-size: 12px;
+                            line-height: 27px;
+                            font-weight: 700;
+                        }
+                    }
+                    .pinglunl{
+                        float: left;
+                        .yanan{
+                            width: 82px;
+                            height: 82px;
+                            position: absolute;
+                            left:-100px;
+                            top: 0px;
+                            background: url($img-path + "com-detail/x_61.png");
+                        }
+                        h3{
+                            font-size: 16px;
+                            margin-bottom: 8px;
+                            color: #2c0531;    
+                        }
+                        span{
+                            background: #FFFFFF;
+                            color: #2c0531;
+                            border-radius: 3px;
+                            margin-right: 5px;
+                            padding-left: 3px;
+                            padding-right: 3px;
+                        }
+                        p{
+                            color: #2c0531;
+                            margin-top: 20px;
+                            
+                        }
+                    }
+                    .pinglunr{
+                        float: left;
+                        margin-left: 50px;
+                        p{
+                            font-size: 12px;
+                            margin-bottom: 30px;
+                            color: #888787;
+                            letter-spacing: 0.1em;
+                            
+                        }
+                        span{
+                           font-size: 12px;
+                            color: #888787;
+                            float: left;
+                            margin-left: 20px;
+                        }
+                        .biao{
+                            width: 16px;
+                            height: 16px;
+                            position: absolute;
+                            left:3px;
+                            top: 62px;
+                            background: url($img-path + "com-detail/x_65.png");
+                        }
+                        .sixing{
+                            background: url($img-path + "com-detail/wuxing.png");
+                            width: 107px;
+                            height: 19px;
+                            position: absolute;
+                            right: 60px;
+                            top: 60px; 
+                        }
+                        span:nth-of-type(2){
+                            margin-left: 215px;
+                        }
+                        span:nth-of-type(3){
+                            float: right;
+                            font-size: 30px;
+                            font-weight: 700;
+                            top: -13px;
+                        }
+                    }
+                }  
+            }
+            
+        }
+        .gengduo{
+            width: 100%;
+            float: left;
+            padding-top: 50xp;
+            a{
+                display: block;
+                background: url($img-path + "com-detail/x_000.png");
+                width: 227px;
+                height: 87px;
+                position: absolute;
+                left: 350px;
+                top: 20px;
+            }
         }    
     }
+    @mixin xiaoge{
+     width:33px;
+     height:33px;
+     background-size:cover;
+     margin:auto;
+     margin-bottom:22px;
+     cursor: pointer;
+    
+}
+.fix-box{
+    width:50px;
+    height:100%;
+    position:fixed;
+    background:rgba(0,0,0,0.3);
+    right:0;
+    top:0;
+    z-index: 1000;
+    .photo-box{
+        width:100%;
+        height:49px;
+        margin-top:42px;
+        background:url($img-path+'fix/tx_03.png') no-repeat;
+        background-size:cover;
+        cursor: pointer;
+    }
+    .star-box{
+        width:100%;
+        height:10px;
+        padding:8px 4px;
+         .star{
+        width:10px;
+        height:10px;
+        background:url($img-path+'fix/star.png');
+        background-size:cover;
+        margin-right:4px;
+        float:left;
+        
+      }
+    }
+    .hengtiao{
+        width:90%;
+        height:8px;
+        background:url($img-path+'fix/ht_03.png') center;
+        background-size:cover;
+        margin:auto;
+        margin-top:8px;
+
+    }
+    .xiaoniu{
+        width:100%;
+//      height:340px;
+        padding-top:54px;
+        .xiaoniu1{
+            background:url($img-path+'fix/home.png') no-repeat;
+            @include xiaoge; 
+        }
+         .xiaoniu2{
+            width:38px;
+            height:38px;
+            margin:auto;
+            background:url($img-path+'fix/zl_03.png') no-repeat ;
+            background-size:contain;
+            margin-bottom:22px;
+            cursor: pointer;
+        }
+         .xiaoniu3{
+            background:url($img-path+'fix/lb.png') no-repeat ;
+            @include xiaoge;  
+        }
+         .xiaoniu4{
+            background:url($img-path+'fix/jp.png') no-repeat ;
+            @include xiaoge;  
+        }
+         .xiaoniu5{
+            background:url($img-path+'fix/sc.png') no-repeat ;
+            @include xiaoge;  
+            margin-bottom:62px;  
+        }
+        .xiaoniu6{
+            background:url($img-path+'fix/s.png') no-repeat ;
+            @include xiaoge;  
+            background-size:contain;
+        }
+        .xiaoniu6{
+            background:url($img-path+'fix/s.png') no-repeat ;
+            @include xiaoge;  
+            background-size:contain;  
+        }
+         .xiaoniu7{
+            background:url($img-path+'fix/tz_11.png') no-repeat ;
+            width:38px;
+            height:38px;
+            margin-left:8px;  
+            background-size:contain;
+            cursor: pointer;  
+        }
+        .niu{
+            .qipao{
+               
+                position:absolute;
+                left:-120px;
+                top:0;
+                width:95px;
+                height:42px;
+                background:url($img-path+'fix/tz_03.png');
+                z-index: 2000;
+                opacity: 0;
+             
+            }
+        }
+    
+   }
+}
+.action{
+    transition:.3s all linear;
+    animation:move 0.5s forwards;
+}
+@keyframes move{
+    from{
+        transform:translateX(0);
+        opacity: 0;
+    }
+    to{
+        transform:translateX(20px);
+        opacity: 1; 
+    }
+}
 }
 
 
