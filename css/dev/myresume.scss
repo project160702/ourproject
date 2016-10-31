@@ -1,11 +1,12 @@
 @import "base.scss";
+@import "header1.scss";
 @font-face {
   font-family: 'iconfont';  /* project id："170594" */
-  src: url('https://at.alicdn.com/t/font_ic6pk6ux2j0885mi.eot');
-  src: url('https://at.alicdn.com/t/font_ic6pk6ux2j0885mi.eot') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_ic6pk6ux2j0885mi.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_ic6pk6ux2j0885mi.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_ic6pk6ux2j0885mi.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_m2iwg4to3uvrt3xr.eot');
+  src: url('https://at.alicdn.com/t/font_m2iwg4to3uvrt3xr.eot') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_m2iwg4to3uvrt3xr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_m2iwg4to3uvrt3xr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_m2iwg4to3uvrt3xr.svg#iconfont') format('svg');
 }
 // 背景图片引入
 $imgurl: $img-path + "myresume/";
@@ -27,7 +28,7 @@ $imgp:center top no-repeat;
 #box{
 	width:100%;
 	height:auto;
-	margin-top:140px;
+	padding-top:140px;
 	z-index:1;
 	&>div{
 		background:#fff;
@@ -754,4 +755,299 @@ $imgp:center top no-repeat;
 			}
 		}
 	}
+}
+#zhe{
+	transform-origin:734px 1200px;
+	transform:scale(0,0);
+	width:100%;
+	opacity:.79;
+	position:absolute;
+	z-index:5;
+	background:#000;
+	top:0;
+	left:0;
+}
+#zhes{
+	transform-origin:734px 1200px;
+	transform:scale(0,0);
+	width:950px;
+	position:absolute;
+	top:800px;
+	left:0;
+	right:0;
+	margin:auto;
+	z-index:6;
+	&>div:first-child{
+		margin-bottom:230px;
+	}
+	&>div{
+		width:950px;
+		height:640px;	
+		margin-left:auto;
+		margin-right:auto;
+		.zhesl{
+			width:100%;
+			height:100%;
+			background:#EFEFEF;
+			opacity:.92;
+			z-index:2;
+				&>img{
+				position:absolute;
+				top:-100px;
+				left:0;
+				right:0;
+				margin:auto;
+				z-index:10;
+			}
+			ul{
+				width:100%;
+				padding:120px 75px 0 75px;
+				opacity:1;
+				&:after{
+					@include nofloat;
+				}
+				li{
+					float:left;
+					width:250px;
+					&>img{
+						position:absolute;
+						cursor:pointer;
+						top:-18px;
+						left:-18px;
+						z-index:10;
+					}
+					&>a{
+						display:block;
+						z-index:0;
+						overflow:hidden;
+						&>img{
+							width:267px;
+							height:322px;
+						}
+						.tan{
+							position:absolute;
+							width:100%;
+							height:57px;
+							opacity:.77;
+							color:#fff;
+							background:#000;
+							font-size:16px;
+							text-align:center;
+							line-height:57px;
+							left:0;
+							bottom:-57px;
+							transition:all .5s;
+							-webkit-transition:all .5s;
+							-o-transition:all .5s;
+							-moz-transition:all .5s;
+						}
+						&:hover .tan{
+							transform:translateY(-57px);
+							-webkit-transform:translateY(-57px);
+							-o-transform:translateY(-57px);
+							-moz-transform:translateY(-57px);
+						}
+					}
+					.add{
+						width:100%;
+						height:322px;
+						background:#10C8F0;
+						&:after{
+							content:"";
+							width:100px;
+							height:10px;
+							background:#fff;
+							position:absolute;
+							left:0;
+							top:0;
+							right:0;
+							bottom:0;
+							margin:auto;
+						}
+						&:before{
+							content:"";
+							width:10px;
+							height:100px;
+							background:#fff;
+							position:absolute;
+							left:0;
+							top:0;
+							right:0;
+							bottom:0;
+							margin:auto;
+						}
+					}
+					.button{
+						margin:25px auto;
+						width:147px;
+						height:44px;
+						background:url($imgurl + "zhe2.png") top center no-repeat;
+						&>a{
+							display:block;
+							width:100%;
+							height:100%;
+							text-align:center;
+							line-height:44px;
+							font-size:16px;
+							color:#fff;
+						}
+					}
+				}
+				li+li{
+					margin-left:25px;
+				}
+				li:first-child .button{
+					background:url($imgurl + "zhe1.png") top center no-repeat;
+					input{
+						width:100%;
+						height:100%;
+						border:0;
+						padding-left:35px;
+						color:#606360;
+						font-size:16px;
+						background:transparent;
+						outline:none;
+					}
+				}
+				li:nth-child(2){
+					&>img{
+						position:absolute;
+						opacity:.74;
+						&:nth-of-type(1){
+							right:-25px;
+							top:-44px;
+							left:auto;
+							bottom:auto;
+						}
+						&:nth-of-type(2){
+							left:-32px;
+							top:175px;
+							right:auto;
+							bottom:auto;
+						}
+					}
+				}
+			}
+			.bottom{
+				width:249px;
+				height:54px;
+				cursor:pointer;
+				margin:0 auto;
+			}
+		}
+	}
+	.wai{
+		position:absolute;
+		width:740px;
+		height:110px;
+		z-index:0;
+		margin:auto;
+		left:0;
+		right:0;
+		bottom:-85px;
+		.lv{
+			opacity:.9;
+			background:#2E694A;
+			width:75%;
+			height:75px;
+			ul{
+				position:absolute;
+				left:0;
+				right:0;
+				margin:auto;
+				bottom:15px;
+				width:100px;
+				&:after{
+					@include nofloat;
+				}
+				li{
+					width:16px;
+					height:16px;
+					background:#F0C310;
+					border:2px solid #fff;
+					border-radius:50%;
+					float:left;
+				}
+				li+li{
+					background:#fff;
+					margin-left:12px;
+				}
+			}
+		}
+		.huang{
+			width:306px;
+			height:106px;
+			position:absolute;
+			z-index:1;
+			background:url($imgurl + "zhe4.png") $imgp;
+			right:0;
+			bottom:0;
+			.jt{
+				width:60px;
+				height:36px;
+				background:#FFFFFF;
+				margin-top:60px;
+				&:after{
+					content:"";
+					background:#fff;
+					width:36px;
+					height:36px;
+					border-radius:50%;
+					right:-18px;
+					top:0;
+					display:block;
+					position:absolute;
+				}
+				i:nth-of-type(1){
+					display:block;
+					height:36px;
+					width:20px;
+					float:left;
+					text-align:center;
+					margin-left:20px;
+					line-height:36px;
+					color:#F0C310;
+					font-size:18px;
+					cursor:pointer;
+				}
+				i:nth-of-type(2){
+					display:block;
+					height:36px;
+					width:20px;
+					float:right;
+					text-align:center;
+					line-height:36px;
+					color:#F0C310;
+					font-size:18px;
+					cursor:pointer;
+					z-index:3;
+				}
+				.zi{
+					width:60px;
+					height:36px;
+					position:absolute;
+					text-align:center;
+					line-height:36px;
+					color:#fff;
+					right:-80px;
+					b{
+						font-weight:normal;
+						font-size: 20px;
+					}
+					span{
+						font-style:none;
+						font-size:14px;
+						color:#fff;
+						float:none;
+					}
+				}
+			}
+		}
+	}
+}
+.tankuang{
+	transition:all .5s;
+}
+#zhe.tankuangk,#zhes.tankuangk{
+	transform:scale(1,1);
 }

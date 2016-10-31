@@ -1,13 +1,8 @@
 @import url("./base.css");
 @import "base";
-#header{
-    width:100%;
-    height:140px;
-    background-color:red;
-}
 #banner{
     width:100%;
-    height:690px;
+    height:724px;
     background-color:blue;
 }
 .sousuo{
@@ -15,7 +10,7 @@
 	height:199px;
 	background-image:url($img-path + "com-list/bg-ss.png");
 	@include left-right;
-	top:734px;
+	top:626px;
 	box-shadow:2px 6px 10px #c7d7db;
 	input{
 	  width:848px;
@@ -53,7 +48,7 @@
 	width:$inner-width;
 	height:194px;
 	@include left-right;
-	top:990px;
+	top:882px;
 	.tjLeft{
 		width:580px;
 		height:194px;
@@ -102,7 +97,7 @@
     width:$inner-width;
     height:680px;
     position: absolute;
-    top:1234px;
+    top:1126px;
     @include left-right;
     ul{
         width:100%;
@@ -207,7 +202,7 @@
     width:800px;
     height:34px;
     position: absolute;
-    top:2016px;
+    top:1908px;
     @include left-right;
     text-align: center;
     .jd{
@@ -256,7 +251,7 @@
     width:$inner-width;
     height:490px;
     position: absolute;
-    top:2136px;
+    top:2028px;
     @include left-right;
     .qytjt{
        height: 42px;
