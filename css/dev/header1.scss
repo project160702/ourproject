@@ -1,0 +1,106 @@
+/*header*/
+@import 'base';
+#header{
+    @include box1(100%,142px);
+    background: rgba(9,66,95,0.8);
+    .header{
+        margin: 0 auto;
+        @include box1(1300px,142px);
+        background: transparent;
+        &:after{
+            content: "";
+            clear: both;
+        }
+    
+    #logo{
+        float: left;
+        background: transparent;
+        margin-top: 15px;
+        img{
+            background: transparent;
+        }
+    }
+    ul{
+        float: left;
+        background: transparent;
+        @include box1(856px,56px);
+        margin-top: 55px;
+        li{
+            @include box1(214px,56px);
+            float: left;
+            padding: 0 42px;
+            background: transparent;
+            border-right: 1px dashed #aaa;
+            a{
+                background: transparent;
+                display: block;
+                @include box1(100%,100%);
+                span{
+                    font-size: 16px;
+                    color:#bdbebe;
+                    background: transparent;
+                    float: left;
+                    margin-bottom: 3px;
+                }
+                h3{
+                    @include box1(80px,30px);
+                    border-top:1px solid #707577;
+                    font-size: 18px;
+                    line-height: 30px;
+                    display: block;
+                    float: left;
+                    background: transparent;
+                    color:#fff;
+                    .yel{
+                        position:absolute;
+                        right:0;
+                        top:0;
+                        @include box1(9px,1px);
+                        background: #f2c119;
+                    }
+                }
+                .li-c{
+                    @include yuan(30px);
+                    background: #21a26b;
+                    float: left;
+                    margin-left: 5px;
+                }
+            }  
+        }
+    }
+    li:nth-last-of-type(1){
+        border: none;
+    }
+    #ms{
+        @include box1(160px,30px);
+        border-radius: 15px;
+        float: left;
+        background:rgba(255,255,255,0.2);
+        border: 1px solid #b6cad2;
+        padding: 0 15px;
+        margin:62px 30px auto 30px;
+        input{
+            background: transparent;
+            @include box1(100%,100%);
+            outline: none;
+            border: none;
+        }
+    }
+    .circle{
+        float: left;
+        background: transparent;
+        margin-top:62px;
+        .xcl{
+            @include yuan(30px);
+            border: 1px solid #fff;
+            background: #f0c310;
+            float: left;
+            margin: 0 20px;
+            float: left;
+        }
+        .xcl:nth-last-of-type(1){
+            background: #1bbf9d;
+        }
+    }
+    }
+}

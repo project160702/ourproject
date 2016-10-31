@@ -1,0 +1,138 @@
+/*header*/
+@import 'base';
+#header{
+    @include box1(100%,142px);
+    background: rgba(9,66,95,0.8);
+    .header{
+        margin: 0 auto;
+        @include box1(1300px,142px);
+        background: transparent;
+        &:after{
+            content: "";
+            clear: both;
+        }
+    
+    #logo{
+        float: left;
+        background: transparent;
+        margin-top: 15px;
+        img{
+            background: transparent;
+        }
+    }
+    ul.zp{
+        float: left;
+        background: transparent;
+        @include box1(856px,56px);
+        margin-top: 55px;
+        li{
+            @include box1(214px,56px);
+            float: left;
+            padding: 0 42px;
+            background: transparent;
+            border-right: 1px dashed #aaa;
+            a{
+                background: transparent;
+                display: block;
+                @include box1(100%,100%);
+                span{
+                    font-size: 16px;
+                    color:#bdbebe;
+                    background: transparent;
+                    float: left;
+                    margin-bottom: 3px;
+                }
+                h3{
+                    @include box1(80px,30px);
+                    border-top:1px solid #707577;
+                    font-size: 18px;
+                    line-height: 30px;
+                    display: block;
+                    float: left;
+                    background: transparent;
+                    color:#fff;
+                    .yel{
+                        position:absolute;
+                        right:0;
+                        top:0;
+                        @include box1(9px,1px);
+                        background: #f2c119;
+                    }
+                }
+                .li-c{
+                    position: absolute;
+                    top:80%;
+                    left: 0;
+                    float: left;
+                    margin-left: 5px;
+                }
+            }  
+        }
+    }
+    li:nth-last-of-type(1){
+        border: none;
+    }
+    #ms{
+        @include box1(220px,30px);
+        border-radius: 15px;
+        float: right;
+        background:rgba(255,255,255,0.2);
+        border: 1px solid #b6cad2;
+        padding: 0 15px;
+        margin:62px 30px auto 30px;
+        input#text{
+            background: transparent;
+            @include box1(100%,100%);
+            outline-style: none;
+            border:none;
+        }
+        .xc{
+            @include yuan(5px);
+            background: #ffd015;
+            @include top-bottom;
+            left:5px;
+        }
+        .xz{
+           @include box1(40px,24px);
+           background-image: url($img-path+'header/an-xz.png');
+           background-size:100% 100%;
+           @include top-bottom;
+           right: 5px;
+           cursor: pointer;
+           
+        }
+        .xala{
+            @include box1(200px,100px);
+            position: absolute;
+            left: 5%;
+            top:30px;
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: 0 0 3px #efefef;
+            margin: 0 auto;
+            display: none;
+            .ra{
+                margin-top: 10px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #333;
+                @include box1(200px,30px);
+                .radio{
+                   float: left;  
+                   margin-right: 5px;
+                   margin-left: 2px;
+                   font-size: 12px;
+                   @include box1(auto,30px);
+                    input{
+                        display: inline-block;  
+                    }                                        
+               }
+            }
+            .sjs{
+               margin-top: 10px;
+               margin-left: 10px;
+            }
+        }
+    }
+
+    }
+}
