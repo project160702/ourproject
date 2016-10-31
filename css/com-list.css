@@ -37,7 +37,13 @@ img {
   width: 100%;
   height:724px;
   background-color: blue; }
-
+div#header{
+	position: absolute;
+	left: 0;
+	top:0;
+	z-index: 888;
+	width: 100%;
+  height: 142px; }
 .sousuo {
   width: 1200px;
   height: 199px;
@@ -80,7 +86,8 @@ img {
     position: absolute;
     right: 42px;
     top: 70px;
-    border-radius: 40px; }
+    border-radius: 40px;
+    cursor: pointer; }
 
 #tuijian {
   width: 1200px;
@@ -228,7 +235,8 @@ img {
           font-weight: bold;
           font-family: "苹方";
           text-align: center;
-          line-height: 42px; }
+          line-height: 42px; 
+          cursor: pointer;}
         #lingdao ul li .LDr .ldl1 {
           background-image: url("../imgs/com-list/bg-lan.png"); }
 
@@ -252,7 +260,8 @@ img {
     color: #9e9e9e;
     font-size: 12px;
     float: left;
-    margin: 0 10px; }
+    margin: 0 10px;
+    cursor: pointer; }
   #fanye .ys {
     width: 24px;
     height: 24px;
@@ -263,7 +272,8 @@ img {
     color: #9e9e9e;
     font-size: 12px;
     float: left;
-    margin: 0 10px; }
+    margin: 0 10px;
+    cursor: pointer; }
   #fanye .Go {
     width: 28px;
     height: 28px;
@@ -276,7 +286,8 @@ img {
     background: #2c87f8;
     font-size: 12px;
     float: left;
-    margin: 0 10px; }
+    margin: 0 10px;
+    cursor: pointer; }
   #fanye .xuanzhong {
     width: 28px;
     height: 28px;
@@ -396,3 +407,13 @@ img {
         #qytj .qytjb .qytjb1 .gstu img {
           width: 77px;
           height: 77px; }
+#footer1{
+  width: 100%;
+  height: 304px;
+  background: #2d2d2d;
+  position:absolute;
+  top:2530px;
+  overflow: hidden;}
+  div#footer{
+    margin-top:0;
+}

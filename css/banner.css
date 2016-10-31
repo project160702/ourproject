@@ -97,7 +97,8 @@ img {
         border-radius: 50%;
         border: 2px solid #fff;
         margin-bottom: 5px;
-        background: #fff; }
+        background: #fff;
+         cursor: pointer; }
     #banner .blis .ym {
       width: 46px;
       height: 34px;
