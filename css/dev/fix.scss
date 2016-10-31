@@ -57,6 +57,7 @@ body{
         .xiaoniu1{
             background:url($img-path+'fix/home.png') no-repeat;
             @include xiaoge; 
+            
         }
          .xiaoniu2{
             width:38px;
@@ -99,6 +100,7 @@ body{
             cursor: pointer;  
         }
         .niu{
+             pointer-events: none;
             .qipao{
                
                 position:absolute;
@@ -109,6 +111,7 @@ body{
                 background:url($img-path+'fix/tz_03.png');
                 z-index: 2000;
                 opacity: 0;
+            
              
             }
         }

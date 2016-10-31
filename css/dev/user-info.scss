@@ -24,7 +24,7 @@ body{
 			padding-left:177px;
 			padding-top:65px;
 			padding-bottom:124px;
-			input{
+			input,textarea{
 				border:1px solid #E5E5E5;
 				border-radius:3px;
 				outline:none;
@@ -76,14 +76,11 @@ body{
 				width:508px;
 				height:76px;
 				margin-bottom:63px;
-				form{
+				.text2{
 					width:425px;
 					height:76px;
 					float:right;
-				}
-				input{
-					width:100%;
-					height:100%;
+					resize : none;
 				}
 			}
 
@@ -238,11 +235,11 @@ body{
 					a{
 						display:block;
 						width:145px;
-						height:100%;
+						height:42px;
 						float:right;
 						background: url($img-path + "user-info/an-lan_03.png") no-repeat center center;
 						color:#fff;
-						line-height:28px;
+						line-height:42px;
 						padding-left:13px;
 					}
 				}
@@ -254,10 +251,10 @@ body{
 					a{
 						display:block;
 						width:145px;
-						height:100%;
+						height:42px;
 						background: url($img-path + "user-info/an-yellow_03.png") no-repeat center center;
 						color:#fff;
-						line-height:28px;
+						line-height:42px;
 						padding-left:13px;
 					}
 				}
