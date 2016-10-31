@@ -146,7 +146,8 @@ img {
         background: #fff;
         box-shadow: 0 0 3px #efefef;
         margin: 0 auto;
-        display: none; }
+        display: none;
+        z-index: 100000; }
         #header .header #ms .xala .ra {
           margin-top: 10px;
           padding-bottom: 10px;
