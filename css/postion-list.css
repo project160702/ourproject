@@ -496,7 +496,8 @@ input {
           color: #fff;
           font-weight: 700;
           display: block;
-          background: transparent; }
+          background: transparent;
+          cursor: pointer; }
     .generalize .ge-b li:hover .img {
       opacity: 1; }
     .generalize .ge-b li:nth-last-of-type(1) {
