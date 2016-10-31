@@ -2,6 +2,23 @@
 body{
     background:#f4f4f4;
 }
+.toubu1{
+    width:100%;
+    height:150px;
+    background:pink;
+    
+}
+.yizhang{
+    width:100%;
+    height:474px;
+    background:url($img-path+"rec-detail/banner_02.png");
+    background-size:cover;
+}
+.beijing{
+    width:100%;
+    height:600px;
+    background:url($img-path+"rec-detail/j_01.png") center;
+}
 .hezi{
     width:$inner-width;
     height:3116px;
@@ -392,7 +409,7 @@ body{
                text-align: left;
                 font-size: 14px;
                 color:#888787;
-                padding-bottom:8px; 
+                padding-bottom:4px; 
             }
         }
     }
@@ -428,7 +445,7 @@ body{
                text-align: left;
                 font-size: 14px;
                 color:#888787;
-                padding-bottom:6px; 
+                padding-bottom:4px; 
             }
         }
         #one{
