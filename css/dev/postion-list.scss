@@ -30,6 +30,10 @@ input{
 #header{
     @include box1(100%,142px);
     background: rgba(9,66,95,0.8);
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 500;
     .header{
         margin: 0 auto;
         @include box1(1300px,142px);
