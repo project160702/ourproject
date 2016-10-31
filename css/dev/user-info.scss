@@ -1,0 +1,268 @@
+@import "base.scss";
+body{
+    background:#f4f4f4;
+}
+/*第二行列表的公共属性*/
+@mixin ul2{
+	height:32px;
+	line-height:32px;
+	float:left;
+}
+#info{
+	width:100%;
+	height:auto;
+	.info{
+		width:$inner-width;
+		height:auto;
+		margin:0 auto;
+		color:#929292;
+		.in-box{
+			width:100%;
+			height:auto;
+			background-color:#fff;
+			margin-top:10px;
+			padding-left:177px;
+			padding-top:65px;
+			padding-bottom:124px;
+			input{
+				border:1px solid #E5E5E5;
+				border-radius:3px;
+				outline:none;
+			}
+
+			form,input{
+				width:182px;
+				height:32px;
+				float:right;
+			}
+
+			select{
+				border:1px solid #E5E5E5;
+				border-radius:3px;
+				outline:none;
+				padding:0 8px 0 12px;
+				color:#626262; 
+				float:right;
+			}
+			.ul:nth-of-type(1){
+				width:208px;
+				height:86px;
+				margin-bottom:24px;
+			}
+			.img{
+				float:right;
+			}
+			.ul:nth-of-type(2){
+				width:auto;
+				height:32px;
+				margin-bottom:32px;
+				.l{
+					width:267px;
+					margin-right:42px;
+					@include ul2;
+				}
+				.c,.r{
+					width:145px;
+					margin-right:55px;
+					@include ul2;
+				}
+				select{
+					width:61px;
+					height:32px; 
+				}
+			}
+
+			.ul:nth-of-type(3){
+				width:508px;
+				height:76px;
+				margin-bottom:63px;
+				form{
+					width:425px;
+					height:76px;
+					float:right;
+				}
+				input{
+					width:100%;
+					height:100%;
+				}
+			}
+
+			.ul:nth-of-type(4){
+				width:auto;
+				height:32px;
+				margin-bottom:18px;
+				.l{
+					width:265px;
+					margin-right:22px;
+					@include ul2;
+				}
+				.r{
+					width:455px;
+					@include ul2;
+				}
+				select{
+					width:372px;
+					height:32px; 
+				}
+			}
+
+			.ul:nth-of-type(5){
+				width:auto;
+				height:32px;
+				margin-bottom:18px;
+				.l{
+					width:218px;
+					margin-right:22px;
+					@include ul2;
+					select{
+						width:135px;
+						height:32px;
+						float:right;
+					}
+				}
+				.c{
+					width:174px;
+					margin-right:10px;
+					@include ul2;
+					select{
+						width:92px;
+						height:32px;
+					}
+				}
+				.r{
+					width:92px;
+					@include ul2;
+					select{
+						width:92px;
+						height:32px; 
+					}
+				}
+			}
+
+			.ul:nth-of-type(6){
+				width:265px;
+				height:32px;
+				margin-bottom:10px;
+				select{
+					width:182px;
+					height:32px; 
+				}
+			}
+
+			.ul:nth-of-type(7),.ul:nth-of-type(8){
+				width:100%;
+				height:32px;
+				margin-bottom:10px;
+				.l{
+					width:265px;
+					height:32px;
+					margin-right:40px;
+					float:left;
+				}
+				.r{
+					width:97px;
+					height:28px;
+					margin:3px 0 1px 0;
+					float:left;
+					a{
+						display:block;
+						width:100%;
+						height:100%;
+						background: url($img-path + "user-info/an-lv_03.png") no-repeat center center;
+						color:#fff;
+						line-height:28px;
+						padding-left:13px;
+					}
+				}
+			}
+
+			.ul:nth-of-type(9){
+				width:100%;
+				height:32px;
+				margin-bottom:13px;
+				.l,.r{
+					width:265px;
+					height:32px;
+					margin-right:20px;
+					float:left;
+				}
+			}
+
+			.ul:nth-of-type(10){
+				width:100%;
+				height:32px;
+				margin-bottom:13px;
+				.l{
+					width:265px;
+					height:32px;
+					margin-right:20px;
+					float:left;
+					select{
+						width:182px;
+						height:32px;
+						float:right;
+					}
+				}
+				.r{
+					width:206px;
+					height:32px;
+					float:left;
+					select{
+						width:124px;
+						height:32px;
+						float:right;
+					}
+				}
+			}
+
+			.ul:nth-of-type(11){
+				width:206px;
+				height:32px;
+				margin-bottom:83px;
+				select{
+					width:124px;
+					height:32px;
+					float:right;
+				}
+			}
+
+			.ul:nth-of-type(12){
+				width:100%;
+				height:42px;
+				line-height:42px;
+				.l{
+					width:386px;
+					height:42px;
+					float:left;
+					margin-right:90px;
+					a{
+						display:block;
+						width:145px;
+						height:100%;
+						float:right;
+						background: url($img-path + "user-info/an-lan_03.png") no-repeat center center;
+						color:#fff;
+						line-height:28px;
+						padding-left:13px;
+					}
+				}
+				.r{
+					width:145px;
+					height:42px;
+					float:left;
+					margin-right:90px;
+					a{
+						display:block;
+						width:145px;
+						height:100%;
+						background: url($img-path + "user-info/an-yellow_03.png") no-repeat center center;
+						color:#fff;
+						line-height:28px;
+						padding-left:13px;
+					}
+				}
+			}
+
+		}
+	}
+}

@@ -1,0 +1,350 @@
+@charset "UTF-8";
+/*去掉标签的默认样式*/
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd, span {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 12px;
+}
+
+img {
+  border: none;
+}
+
+/*内宽*/
+/*图片路径*/
+/*调试块*/
+/*上下居中*/
+/*左右居中*/
+/*居中*/
+/*建盒子*/
+/*正方形*/
+/*圆*/
+/*图片居中*/
+body {
+  background: #f4f4f4;
+}
+
+/*第二行列表的公共属性*/
+#info {
+  width: 100%;
+  height: auto;
+}
+
+#info .info {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  color: #929292;
+}
+
+#info .info .in-box {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 10px;
+  padding-left: 177px;
+  padding-top: 65px;
+  padding-bottom: 124px;
+}
+
+#info .info .in-box input {
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  outline: none;
+}
+
+#info .info .in-box form, #info .info .in-box input {
+  width: 182px;
+  height: 32px;
+  float: right;
+}
+
+#info .info .in-box select {
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  outline: none;
+  padding: 0 8px 0 12px;
+  color: #626262;
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(1) {
+  width: 208px;
+  height: 86px;
+  margin-bottom: 24px;
+}
+
+#info .info .in-box .img {
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(2) {
+  width: auto;
+  height: 32px;
+  margin-bottom: 32px;
+}
+
+#info .info .in-box .ul:nth-of-type(2) .l {
+  width: 267px;
+  margin-right: 42px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(2) .c, #info .info .in-box .ul:nth-of-type(2) .r {
+  width: 145px;
+  margin-right: 55px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(2) select {
+  width: 61px;
+  height: 32px;
+}
+
+#info .info .in-box .ul:nth-of-type(3) {
+  width: 508px;
+  height: 76px;
+  margin-bottom: 63px;
+}
+
+#info .info .in-box .ul:nth-of-type(3) form {
+  width: 425px;
+  height: 76px;
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(3) input {
+  width: 100%;
+  height: 100%;
+}
+
+#info .info .in-box .ul:nth-of-type(4) {
+  width: auto;
+  height: 32px;
+  margin-bottom: 18px;
+}
+
+#info .info .in-box .ul:nth-of-type(4) .l {
+  width: 265px;
+  margin-right: 22px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(4) .r {
+  width: 455px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(4) select {
+  width: 372px;
+  height: 32px;
+}
+
+#info .info .in-box .ul:nth-of-type(5) {
+  width: auto;
+  height: 32px;
+  margin-bottom: 18px;
+}
+
+#info .info .in-box .ul:nth-of-type(5) .l {
+  width: 218px;
+  margin-right: 22px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(5) .l select {
+  width: 135px;
+  height: 32px;
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(5) .c {
+  width: 174px;
+  margin-right: 10px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(5) .c select {
+  width: 92px;
+  height: 32px;
+}
+
+#info .info .in-box .ul:nth-of-type(5) .r {
+  width: 92px;
+  height: 32px;
+  line-height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(5) .r select {
+  width: 92px;
+  height: 32px;
+}
+
+#info .info .in-box .ul:nth-of-type(6) {
+  width: 265px;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+#info .info .in-box .ul:nth-of-type(6) select {
+  width: 182px;
+  height: 32px;
+}
+
+#info .info .in-box .ul:nth-of-type(7), #info .info .in-box .ul:nth-of-type(8) {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 10px;
+}
+
+#info .info .in-box .ul:nth-of-type(7) .l, #info .info .in-box .ul:nth-of-type(8) .l {
+  width: 265px;
+  height: 32px;
+  margin-right: 40px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(7) .r, #info .info .in-box .ul:nth-of-type(8) .r {
+  width: 97px;
+  height: 28px;
+  margin: 3px 0 1px 0;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(7) .r a, #info .info .in-box .ul:nth-of-type(8) .r a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../imgs/user-info/an-lv_03.png") no-repeat center center;
+  color: #fff;
+  line-height: 28px;
+  padding-left: 13px;
+}
+
+#info .info .in-box .ul:nth-of-type(9) {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 13px;
+}
+
+#info .info .in-box .ul:nth-of-type(9) .l, #info .info .in-box .ul:nth-of-type(9) .r {
+  width: 265px;
+  height: 32px;
+  margin-right: 20px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(10) {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 13px;
+}
+
+#info .info .in-box .ul:nth-of-type(10) .l {
+  width: 265px;
+  height: 32px;
+  margin-right: 20px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(10) .l select {
+  width: 182px;
+  height: 32px;
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(10) .r {
+  width: 206px;
+  height: 32px;
+  float: left;
+}
+
+#info .info .in-box .ul:nth-of-type(10) .r select {
+  width: 124px;
+  height: 32px;
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(11) {
+  width: 206px;
+  height: 32px;
+  margin-bottom: 83px;
+}
+
+#info .info .in-box .ul:nth-of-type(11) select {
+  width: 124px;
+  height: 32px;
+  float: right;
+}
+
+#info .info .in-box .ul:nth-of-type(12) {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+}
+
+#info .info .in-box .ul:nth-of-type(12) .l {
+  width: 386px;
+  height: 42px;
+  float: left;
+  margin-right: 90px;
+}
+
+#info .info .in-box .ul:nth-of-type(12) .l a {
+  display: block;
+  width: 145px;
+  height: 100%;
+  float: right;
+  background: url("../imgs/user-info/an-lan_03.png") no-repeat center center;
+  color: #fff;
+  line-height: 28px;
+  padding-left: 13px;
+}
+
+#info .info .in-box .ul:nth-of-type(12) .r {
+  width: 145px;
+  height: 42px;
+  float: left;
+  margin-right: 90px;
+}
+
+#info .info .in-box .ul:nth-of-type(12) .r a {
+  display: block;
+  width: 145px;
+  height: 100%;
+  background: url("../imgs/user-info/an-yellow_03.png") no-repeat center center;
+  color: #fff;
+  line-height: 28px;
+  padding-left: 13px;
+}
