@@ -2,12 +2,12 @@
 @import "base";
 #header{
     width:100%;
-    height:180px;
+    height:140px;
     background-color:red;
 }
 #banner{
     width:100%;
-    height:834px;
+    height:690px;
     background-color:blue;
 }
 .sousuo{
@@ -15,7 +15,7 @@
 	height:199px;
 	background-image:url($img-path + "com-list/bg-ss.png");
 	@include left-right;
-	top:920px;
+	top:734px;
 	box-shadow:2px 6px 10px #c7d7db;
 	input{
 	  width:848px;
@@ -53,7 +53,7 @@
 	width:$inner-width;
 	height:194px;
 	@include left-right;
-	top:1178px;
+	top:990px;
 	.tjLeft{
 		width:580px;
 		height:194px;
@@ -102,7 +102,7 @@
     width:$inner-width;
     height:680px;
     position: absolute;
-    top:1420px;
+    top:1234px;
     @include left-right;
     ul{
         width:100%;
@@ -207,7 +207,7 @@
     width:800px;
     height:34px;
     position: absolute;
-    top:2204px;
+    top:2016px;
     @include left-right;
     text-align: center;
     .jd{
@@ -256,7 +256,7 @@
     width:$inner-width;
     height:490px;
     position: absolute;
-    top:2325px;
+    top:2136px;
     @include left-right;
     .qytjt{
        height: 42px;
