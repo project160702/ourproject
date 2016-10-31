@@ -1,0 +1,111 @@
+@import url("./base.css");
+@import "base";
+
+#banner{
+    width:auto;
+    height:724px;
+    background: url($img-path + "banner/banner.png") no-repeat;
+    background-size: cover;
+    .zhezhao{
+        width:100%;
+        height:100%;
+        position:absolute;
+        background-color:rgba(19,73,94,0.86);
+    };   
+       .bxfg1{
+           position: absolute;
+           top:512px;
+           left:0px;
+           width:40px;
+           height:40px;
+           background: #e8bc0f;
+           opacity: 0.27;
+           z-index: 105;
+       };
+       .bxfg2{
+           position: absolute;
+           top:535px;
+           left:20px;
+           width:100px;
+           height:100px;
+           background:#e8bc0f;
+           opacity: 0.27;
+           z-index: 105;
+       };
+       .bimgs{
+           @include left-right;
+           position:absolute;
+           top:180px;
+           width:1200px;
+           height:565px;
+           overflow: hidden;
+           img{
+               width:1250px;
+               position:absolute;
+               left:0;
+               top:0px;
+               opacity:0;
+           }
+       };
+       .blis{
+           width:70px;
+           height:140px;
+           background-image: url($img-path + "banner/bg-yellow.png");
+           position:absolute;
+           bottom:118px;
+           left:1275px;
+           z-index:100;
+           .yuandian{
+               width:15px;
+               height:80px;
+               position:absolute;
+               left:10px;
+               top:10px;
+               li{
+                   @include yuan(11px);
+                   border:2px solid #fff;
+                   margin-bottom:5px;
+                   background: #fff;
+               }
+           };
+           .ym{
+               width:46px;
+               height:34px;
+               position:absolute;
+               left:26px;
+               top:50px;
+               .dqys{
+                   color:#fff;
+                   font-size:19px;
+               };
+               .zys{
+                   color:#fff;
+                   font-size:14px;
+               };
+               .page{
+                   color:#fff;
+                   font-size:14px;
+                   font-weight: bold;
+               }   
+           };
+           .bfy{
+               width:60px;
+               height:30px;
+               background: #fff;
+               border-radius: 0 20px 20px 0;
+               position: absolute;
+               left:0;
+               top:100px;
+               line-height: 30px;
+               .bzf,.byf{
+                   display: block;
+                   width:20px;
+                   height:16px;
+                   margin-left:6px;
+                   color:#f0c310;
+                   font-size:27px;
+                   float:left;
+               };
+           }
+       }
+}

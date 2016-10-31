@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url("./base.css");
+/*去掉标签的默认样式*/
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd, span {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #fff; }
+
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 12px; }
+
+img {
+  border: none; }
+
+/*内宽*/
+/*图片路径*/
+/*调试块*/
+/*上下居中*/
+/*左右居中*/
+/*居中*/
+/*建盒子*/
+/*正方形*/
+/*圆*/
+/*图片居中*/
+#banner {
+  width: auto;
+  height: 724px;
+  background: url("../imgs/banner/banner.png") no-repeat;
+  background-size: cover; }
+  #banner .zhezhao {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(19, 73, 94, 0.86); }
+  #banner .bxfg1 {
+    position: absolute;
+    top: 512px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    background: #e8bc0f;
+    opacity: 0.27;
+    z-index: 105; }
+  #banner .bxfg2 {
+    position: absolute;
+    top: 535px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background: #e8bc0f;
+    opacity: 0.27;
+    z-index: 105; }
+  #banner .bimgs {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    position: absolute;
+    top: 180px;
+    width: 1200px;
+    height: 565px;
+    overflow: hidden; }
+    #banner .bimgs img {
+      width: 1250px;
+      position: absolute;
+      left: 0;
+      top: 0px;
+      opacity: 0; }
+  #banner .blis {
+    width: 70px;
+    height: 140px;
+    background-image: url("../imgs/banner/bg-yellow.png");
+    position: absolute;
+    bottom: 118px;
+    left: 1275px;
+    z-index: 100; }
+    #banner .blis .yuandian {
+      width: 15px;
+      height: 80px;
+      position: absolute;
+      left: 10px;
+      top: 10px; }
+      #banner .blis .yuandian li {
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin-bottom: 5px;
+        background: #fff; }
+    #banner .blis .ym {
+      width: 46px;
+      height: 34px;
+      position: absolute;
+      left: 26px;
+      top: 50px; }
+      #banner .blis .ym .dqys {
+        color: #fff;
+        font-size: 19px; }
+      #banner .blis .ym .zys {
+        color: #fff;
+        font-size: 14px; }
+      #banner .blis .ym .page {
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold; }
+    #banner .blis .bfy {
+      width: 60px;
+      height: 30px;
+      background: #fff;
+      border-radius: 0 20px 20px 0;
+      position: absolute;
+      left: 0;
+      top: 100px;
+      line-height: 30px; }
+      #banner .blis .bfy .bzf, #banner .blis .bfy .byf {
+        display: block;
+        width: 20px;
+        height: 16px;
+        margin-left: 6px;
+        color: #f0c310;
+        font-size: 27px;
+        float: left; }
