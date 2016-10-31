@@ -142,6 +142,7 @@ input{
                text-align: center;
                right:25px;
                border-radius: 5px;
+               cursor: pointer;
             }
         }
         li:nth-last-of-type(1){
@@ -185,6 +186,120 @@ input{
             }
         }
         
+    }
+    .hz{
+        position: absolute;
+        top:-288px;
+        left: 0;
+        @include box1(1200px,219px);
+        background-image: url($img-path+'postion-list/bg_03.png');
+        background-size: cover;
+        z-index: 1000;
+        ul#hz{
+            @include box1(1120px,121px);
+            margin-top: 18px;
+            margin-left: 49px;
+            background: transparent;
+            border-bottom: 1px dashed #cbcbcb;
+            li{
+                float: left;
+                @include box1(33.333%,100%);
+//              @include top-bottom;
+                background: transparent;
+                .hz-img{
+                    background: transparent;
+                    float: left;
+                    margin-top: 35px;
+                    img{
+                        background: transparent;
+                    }
+                }
+                i{
+                    font-size: 36px;
+                    font-weight: 1000;
+                    color:#40d1f1;
+                    display: block;
+                    @include box1(auto,100%);
+                    line-height: 121px;
+                    float: left;
+                    background: transparent;
+                }
+                .hz-img2{
+                    @include box1(3px,41px);
+                    margin-top: 40px;
+                    float: left;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    background: transparent;
+                    img{
+                        background: transparent;
+                        
+                    }
+                }
+                .zi{
+                    float: left;
+                    margin-top: 40px;
+                    background: transparent;
+                    span{
+                        font-size: 18px;
+                        font-weight:500;
+                        color:#595959;
+                        display: block;
+                        background: transparent;
+                        a{
+                            color:#40d1f1;
+                            font-size: 18px;
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+            li:nth-of-type(2){
+                i,.zi a{
+                    color:#f0c310;
+                }
+            }
+            li:nth-of-type(3){
+                i,.zi a{
+                    color:#32d486;
+                }     
+            }
+        }
+        .hz-t{
+            @include box1(1120px,40px);
+            margin-top: 18px;
+            margin-left: 49px;
+            background: transparent;
+            .hz-img3{
+                @include box1(59px,40px);
+                float: left;
+                background: transparent;
+                img{
+                    background: transparent;
+                }
+            }
+            .neirong{
+                @include box1(800px,40px);
+                font-size: 18px;
+                color: #595959;
+                line-height: 40px;
+                display: block;
+                float: left;
+                margin: 0 10px;
+                background: transparent;
+            }
+            .date{
+                @include box1(108px,31px);
+                background: url($img-path+'postion-list/d_15.png');
+                text-align: center;
+                line-height: 31px;
+                color: #fff;
+                font-size: 16px;
+                margin-top: 5px;
+                float: left;
+//              background: transparent;
+            }
+        }
     }
 }
 /*推广企业*/

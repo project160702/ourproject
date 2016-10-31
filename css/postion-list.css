@@ -172,7 +172,8 @@ input {
         line-height: 42px;
         text-align: center;
         right: 25px;
-        border-radius: 5px; }
+        border-radius: 5px;
+        cursor: pointer; }
     .main .main-m li:nth-last-of-type(1) {
       width: 100%;
       height: 178px; }
@@ -214,6 +215,104 @@ input {
           border: 1px solid #ccc;
           float: left;
           margin-right: 10px; }
+  .main .hz {
+    position: absolute;
+    top: -288px;
+    left: 0;
+    width: 1200px;
+    height: 219px;
+    background-image: url("../imgs/postion-list/bg_03.png");
+    background-size: cover;
+    z-index: 1000; }
+    .main .hz ul#hz {
+      width: 1120px;
+      height: 121px;
+      margin-top: 18px;
+      margin-left: 49px;
+      background: transparent;
+      border-bottom: 1px dashed #cbcbcb; }
+      .main .hz ul#hz li {
+        float: left;
+        width: 33.333%;
+        height: 100%;
+        background: transparent; }
+        .main .hz ul#hz li .hz-img {
+          background: transparent;
+          float: left;
+          margin-top: 35px; }
+          .main .hz ul#hz li .hz-img img {
+            background: transparent; }
+        .main .hz ul#hz li i {
+          font-size: 36px;
+          font-weight: 1000;
+          color: #40d1f1;
+          display: block;
+          width: auto;
+          height: 100%;
+          line-height: 121px;
+          float: left;
+          background: transparent; }
+        .main .hz ul#hz li .hz-img2 {
+          width: 3px;
+          height: 41px;
+          margin-top: 40px;
+          float: left;
+          margin-left: 10px;
+          margin-right: 10px;
+          background: transparent; }
+          .main .hz ul#hz li .hz-img2 img {
+            background: transparent; }
+        .main .hz ul#hz li .zi {
+          float: left;
+          margin-top: 40px;
+          background: transparent; }
+          .main .hz ul#hz li .zi span {
+            font-size: 18px;
+            font-weight: 500;
+            color: #595959;
+            display: block;
+            background: transparent; }
+            .main .hz ul#hz li .zi span a {
+              color: #40d1f1;
+              font-size: 18px;
+              background: transparent; }
+      .main .hz ul#hz li:nth-of-type(2) i, .main .hz ul#hz li:nth-of-type(2) .zi a {
+        color: #f0c310; }
+      .main .hz ul#hz li:nth-of-type(3) i, .main .hz ul#hz li:nth-of-type(3) .zi a {
+        color: #32d486; }
+    .main .hz .hz-t {
+      width: 1120px;
+      height: 40px;
+      margin-top: 18px;
+      margin-left: 49px;
+      background: transparent; }
+      .main .hz .hz-t .hz-img3 {
+        width: 59px;
+        height: 40px;
+        float: left;
+        background: transparent; }
+        .main .hz .hz-t .hz-img3 img {
+          background: transparent; }
+      .main .hz .hz-t .neirong {
+        width: 800px;
+        height: 40px;
+        font-size: 18px;
+        color: #595959;
+        line-height: 40px;
+        display: block;
+        float: left;
+        margin: 0 10px;
+        background: transparent; }
+      .main .hz .hz-t .date {
+        width: 108px;
+        height: 31px;
+        background: url("../imgs/postion-list/d_15.png");
+        text-align: center;
+        line-height: 31px;
+        color: #fff;
+        font-size: 16px;
+        margin-top: 5px;
+        float: left; }
 
 /*推广企业*/
 .generalize {
