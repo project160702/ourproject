@@ -42,8 +42,7 @@ body {
   right: 0;
   margin: auto;
   position: absolute;
-  top: 280px;
-  background: pink; }
+  top: 280px; }
 
 .container:first-child {
   width: 1200px;
@@ -444,3 +443,241 @@ body {
         font-size: 16px;
         color: #309ef4;
         text-decoration: underline; }
+
+.container:nth-child(4) {
+  height: 312px;
+  width: 1200px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #10c8f0;
+  padding-top: 4px; }
+  .container:nth-child(4) .container-box {
+    height: 308px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding-left: 20px; }
+    .container:nth-child(4) .container-box .line1 {
+      width: 100%;
+      padding-top: 23px;
+      height: 114px; }
+      .container:nth-child(4) .container-box .line1 .left-pic {
+        width: 90px;
+        height: 90px;
+        float: left;
+        background: url("../imgs/rec-detail/v_30.png") no-repeat center; }
+      .container:nth-child(4) .container-box .line1 .center-zi {
+        width: 266px;
+        height: 90px;
+        float: left;
+        margin-left: 14px; }
+        .container:nth-child(4) .container-box .line1 .center-zi .center-xiaozi {
+          text-align: left;
+          height: 54px;
+          width: 102px;
+          line-height: 54px;
+          font-size: 30px;
+          color: #000;
+          float: left; }
+        .container:nth-child(4) .container-box .line1 .center-zi .center-tu {
+          width: 123px;
+          height: 28px;
+          float: left;
+          background: url("../imgs/rec-detail/zpx.jpg") no-repeat center;
+          margin-top: 13px; }
+        .container:nth-child(4) .container-box .line1 .center-zi .center-xiaozi1 {
+          height: 36px;
+          width: 266px;
+          text-align: left;
+          line-height: 36px;
+          font-size: 20px;
+          color: #000;
+          float: left;
+          font-weight: bold; }
+      .container:nth-child(4) .container-box .line1 .right {
+        width: 220px;
+        height: 28px;
+        float: left;
+        padding-top: 8px; }
+        .container:nth-child(4) .container-box .line1 .right .right1 {
+          width: 71px;
+          height: 20px;
+          background: url("../imgs/rec-detail/v_33.png") no-repeat center;
+          float: left;
+          text-align: center;
+          line-height: 20px;
+          font-size: 12px;
+          color: #000;
+          cursor: pointer; }
+        .container:nth-child(4) .container-box .line1 .right .right2 {
+          width: 52px;
+          height: 20px;
+          background: url("../imgs/rec-detail/v_35.png") no-repeat center;
+          float: left;
+          text-align: center;
+          line-height: 20px;
+          font-size: 12px;
+          color: #000;
+          margin-left: 7px;
+          cursor: pointer; }
+        .container:nth-child(4) .container-box .line1 .right .right3 {
+          width: 77px;
+          height: 20px;
+          background: url("../imgs/rec-detail/v_37.png") no-repeat center;
+          float: left;
+          text-align: center;
+          line-height: 20px;
+          font-size: 12px;
+          color: #000;
+          margin-left: 7px;
+          cursor: pointer; }
+    .container:nth-child(4) .container-box .line2 {
+      width: 484px;
+      height: 134px;
+      float: left;
+      margin-top: 18px; }
+      .container:nth-child(4) .container-box .line2 .line2-box {
+        width: 100%;
+        height: 28px; }
+        .container:nth-child(4) .container-box .line2 .line2-box a {
+          text-align: left;
+          font-size: 14px;
+          color: #309ef4;
+          text-decoration: underline; }
+        .container:nth-child(4) .container-box .line2 .line2-box .list1L {
+          width: 94px;
+          height: 22px;
+          border: 1px solid #eeeeee;
+          float: left;
+          border-radius: 5px; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L .list1-pic {
+            margin-left: 7px;
+            width: 22px;
+            height: 22px;
+            float: left; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L #pic1 {
+            background: url("../imgs/rec-detail/e_11.png") no-repeat center; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L #pic2 {
+            background: url("../imgs/rec-detail/e_14.png") no-repeat center; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L #pic3 {
+            background: url("../imgs/rec-detail/e_16.png") no-repeat center; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L #pic4 {
+            background: url("../imgs/rec-detail/e_18.png") no-repeat center; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L #pic5 {
+            background: url("../imgs/rec-detail/e_20.png") no-repeat center; }
+          .container:nth-child(4) .container-box .line2 .line2-box .list1L .list1-zi {
+            width: 62px;
+            height: 100%;
+            text-align: center;
+            line-height: 22px;
+            font-size: 14px;
+            color: #000;
+            float: left; }
+        .container:nth-child(4) .container-box .line2 .line2-box .list1R {
+          width: 380px;
+          height: 20px;
+          float: left;
+          padding-top: 4px;
+          padding-left: 15px; }
+    .container:nth-child(4) .container-box .youbian {
+      width: 342px;
+      height: 232px;
+      float: right;
+      background: url("../imgs/rec-detail/v_47.png") no-repeat center;
+      margin-top: -40px;
+      margin-right: -20px; }
+
+.container:nth-child(5) {
+  height: 430px;
+  width: 1200px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: #10c8f0;
+  padding-top: 4px; }
+  .container:nth-child(5) .container-box {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px; }
+    .container:nth-child(5) .container-box .con-top {
+      height: 65px;
+      width: 100%;
+      border-bottom: 1px solid #b5b5b5;
+      padding-left: 20px; }
+      .container:nth-child(5) .container-box .con-top .title {
+        width: 100%;
+        height: 30px;
+        padding-top: 20px;
+        height: 60px; }
+        .container:nth-child(5) .container-box .con-top .title .title-img {
+          width: 33px;
+          height: 34px;
+          float: left;
+          background: url("../imgs/rec-detail/e_23.png") no-repeat center; }
+        .container:nth-child(5) .container-box .con-top .title .title-zi {
+          font-size: 24px;
+          color: #45b45a;
+          text-align: left;
+          line-height: 30px;
+          padding-left: 5px;
+          float: left; }
+    .container:nth-child(5) .container-box .con-bottom {
+      width: 100%;
+      height: 365px;
+      padding-left: 15px;
+      padding-top: 28px; }
+      .container:nth-child(5) .container-box .con-bottom .biaoge1 {
+        width: 543px;
+        height: 80px;
+        float: left;
+        border: 1px solid #bfbfbf;
+        margin-left: 20px;
+        margin-top: 18px; }
+        .container:nth-child(5) .container-box .con-bottom .biaoge1 .lv {
+          width: 3px;
+          height: 100%;
+          background: #00b38a;
+          float: left; }
+        .container:nth-child(5) .container-box .con-bottom .biaoge1 .lvzi {
+          width: 158px;
+          height: 40px;
+          padding-top: 22px;
+          padding-left: 12px;
+          font-size: 18px;
+          color: #00b38a;
+          float: left; }
+        .container:nth-child(5) .container-box .con-bottom .biaoge1 .heizi {
+          width: 262px;
+          height: 30px;
+          padding-top: 10px;
+          padding-left: 98px;
+          font-size: 14px;
+          color: #000;
+          position: relative;
+          float: left; }
+          .container:nth-child(5) .container-box .con-bottom .biaoge1 .heizi span {
+            font-size: 18px;
+            color: #ec0000;
+            position: absolute;
+            left: 12px;
+            top: 8px; }
+        .container:nth-child(5) .container-box .con-bottom .biaoge1 .youzi {
+          width: 172px;
+          height: 30px;
+          float: right;
+          margin-top: 24px;
+          float: right; }
+          .container:nth-child(5) .container-box .con-bottom .biaoge1 .youzi .time {
+            width: 23px;
+            height: 15px;
+            background: url("../imgs/rec-detail/xq.jpg");
+            float: left; }
+          .container:nth-child(5) .container-box .con-bottom .biaoge1 .youzi .shijian {
+            text-align: left;
+            font-size: 14px;
+            color: #888787;
+            float: left; }
