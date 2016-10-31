@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*去掉标签的默认样式*/
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd, span {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #fff; }
+
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  font-size: 12px; }
+
+img {
+  border: none; }
+
+/*内宽*/
+/*图片路径*/
+/*调试块*/
+/*上下居中*/
+/*左右居中*/
+/*居中*/
+/*建盒子*/
+/*正方形*/
+/*圆*/
+/*图片居中*/
+body {
+  height: 1200px; }
+
+.fix-box {
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  right: 0;
+  top: 0;
+  z-index: 1000; }
+  .fix-box .photo-box {
+    width: 100%;
+    height: 49px;
+    margin-top: 42px;
+    background: url("../imgs/fix/tx_03.png") no-repeat;
+    background-size: cover;
+    cursor: pointer; }
+  .fix-box .star-box {
+    width: 100%;
+    height: 10px;
+    padding: 8px 4px; }
+    .fix-box .star-box .star {
+      width: 10px;
+      height: 10px;
+      background: url("../imgs/fix/star.png");
+      background-size: cover;
+      margin-right: 4px;
+      float: left; }
+  .fix-box .hengtiao {
+    width: 90%;
+    height: 8px;
+    background: url("../imgs/fix/ht_03.png") center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 8px; }
+  .fix-box .xiaoniu {
+    width: 100%;
+    padding-top: 54px; }
+    .fix-box .xiaoniu .xiaoniu1 {
+      background: url("../imgs/fix/home.png") no-repeat;
+      width: 33px;
+      height: 33px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 22px;
+      cursor: pointer; }
+    .fix-box .xiaoniu .xiaoniu2 {
+      width: 38px;
+      height: 38px;
+      margin: auto;
+      background: url("../imgs/fix/zl_03.png") no-repeat;
+      background-size: contain;
+      margin-bottom: 22px;
+      cursor: pointer; }
+    .fix-box .xiaoniu .xiaoniu3 {
+      background: url("../imgs/fix/lb.png") no-repeat;
+      width: 33px;
+      height: 33px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 22px;
+      cursor: pointer; }
+    .fix-box .xiaoniu .xiaoniu4 {
+      background: url("../imgs/fix/jp.png") no-repeat;
+      width: 33px;
+      height: 33px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 22px;
+      cursor: pointer; }
+    .fix-box .xiaoniu .xiaoniu5 {
+      background: url("../imgs/fix/sc.png") no-repeat;
+      width: 33px;
+      height: 33px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 22px;
+      cursor: pointer;
+      margin-bottom: 62px; }
+    .fix-box .xiaoniu .xiaoniu6 {
+      background: url("../imgs/fix/s.png") no-repeat;
+      width: 33px;
+      height: 33px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 22px;
+      cursor: pointer;
+      background-size: contain; }
+    .fix-box .xiaoniu .xiaoniu6 {
+      background: url("../imgs/fix/s.png") no-repeat;
+      width: 33px;
+      height: 33px;
+      background-size: cover;
+      margin: auto;
+      margin-bottom: 22px;
+      cursor: pointer;
+      background-size: contain; }
+    .fix-box .xiaoniu .xiaoniu7 {
+      background: url("../imgs/fix/tz_11.png") no-repeat;
+      width: 38px;
+      height: 38px;
+      margin-left: 8px;
+      background-size: contain;
+      cursor: pointer; }
+    .fix-box .xiaoniu .niu .qipao {
+      position: absolute;
+      left: -120px;
+      top: 0;
+      width: 95px;
+      height: 42px;
+      background: url("../imgs/fix/tz_03.png");
+      z-index: 2000;
+      opacity: 0; }
+
+.action {
+  transition: .3s all linear;
+  animation: move 0.5s forwards; }
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+    opacity: 0; }
+  to {
+    transform: translateX(20px);
+    opacity: 1; } }
