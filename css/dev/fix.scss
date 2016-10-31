@@ -100,9 +100,7 @@ body{
             cursor: pointer;  
         }
         .niu{
-             pointer-events: none;
             .qipao{
-               
                 position:absolute;
                 left:-120px;
                 top:0;
@@ -111,8 +109,7 @@ body{
                 background:url($img-path+'fix/tz_03.png');
                 z-index: 2000;
                 opacity: 0;
-            
-             
+                pointer-events: none;
             }
         }
     

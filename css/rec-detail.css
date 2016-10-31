@@ -41,11 +41,18 @@ img {
 .beijing {
   width: 100%;
   height: 600px;
-  background: url("../imgs/rec-detail/j_01.png") center; }
+  background: #f4f4f4; }
+
+.beijing-img {
+  width: 100%;
+  height: 600px;
+  background: url("../imgs/rec-detail/j_01.png") center;
+  position: absolute; }
 
 .kongbai {
   width: 100%;
-  height: 2207px; }
+  height: 2207px;
+  background: #f4f4f4; }
 
 .hezi {
   width: 1200px;
