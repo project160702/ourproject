@@ -32,14 +32,6 @@ img {
 /*正方形*/
 /*圆*/
 /*图片居中*/
-body {
-  background: #f4f4f4; }
-
-.toubu1 {
-  width: 100%;
-  height: 150px;
-  background: pink; }
-
 .yizhang {
   width: 100%;
   height: 474px;
@@ -50,6 +42,10 @@ body {
   width: 100%;
   height: 600px;
   background: url("../imgs/rec-detail/j_01.png") center; }
+
+.kongbai {
+  width: 100%;
+  height: 2207px; }
 
 .hezi {
   width: 1200px;

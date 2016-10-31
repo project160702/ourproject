@@ -1,13 +1,4 @@
 @import 'base';
-body{
-    background:#f4f4f4;
-}
-.toubu1{
-    width:100%;
-    height:150px;
-    background:pink;
-    
-}
 .yizhang{
     width:100%;
     height:474px;
@@ -18,6 +9,10 @@ body{
     width:100%;
     height:600px;
     background:url($img-path+"rec-detail/j_01.png") center;
+}
+.kongbai{
+    width:100%;
+    height:2207px;
 }
 .hezi{
     width:$inner-width;
@@ -31,10 +26,11 @@ body{
   border-radius: 10px;
   margin:0 auto;
 }
+
 //第一部分
 .container:first-child {
   @include container;
-  height:446px;;
+  height:446px;
   .logo {
       width: 283px;
       height: 80px;
